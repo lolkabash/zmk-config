@@ -31,7 +31,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "default layer";
+            label = "Main";
             bindings = <
                 &bt BT_CLR          &ext_power EP_TOG  &out OUT_TOG    &kp LC(PG_DN)     &kp LC(PG_UP)  
                 &rgb_ug RGB_TOG     &kp KP_NUM         &kp KP_DIVIDE   &kp KP_MULTIPLY   &kp KP_MINUS    
@@ -45,7 +45,7 @@
         }; 
         
         fn_layer {
-            label = "fn layer";
+            label = "Function";
             bindings = <
                 &trans      &trans          &trans             &trans          &trans 
                 &trans      &trans          &trans             &trans          &trans     
