@@ -38,7 +38,7 @@
                 &bt BT_CLR          &kp KP_N7          &kp KP_N8       &kp KP_N9         &kp KP_PLUS   
                 &kp C_MUTE          &kp KP_N4          &kp KP_N5       &kp KP_N6         &trans  
                 &mo 1               &kp KP_N1          &kp KP_N2       &kp KP_N3         &kp KP_ENTER    
-                &kp C_AL_CALC          &kp KP_N0          &trans          &kp KP_DOT        &trans  
+                &kp C_AL_CALC       &kp KP_N0          &trans          &kp KP_DOT        &trans  
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_NEXT C_PREV>;
 
